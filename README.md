@@ -27,4 +27,4 @@ requests            2.18.4
       
       b) http://localhost:8000/scraper/currencyfeeds/ - do pobierania listy feedów z aplikacji oraz do dodawania nowych feedów
       
-  4. Autentyfikacja z użyciem tokena
+  4. Uwierzytelnianie z użyciem tokena
