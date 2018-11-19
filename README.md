@@ -34,6 +34,8 @@ requests            2.18.4
 <b>TESTOWANIE:</b>
 
 <br>
+<br>
+
 1. Autoryzacja:
 
 POST: http://localhost:8000/scraper/get_auth_token/
