@@ -36,7 +36,7 @@ requests            2.18.4
 <br>
 <br>
 
-1. Autoryzacja:
+<b>Autoryzacja:</b>
 
 POST: http://localhost:8000/scraper/get_auth_token/
 
@@ -45,7 +45,7 @@ z 'username' i 'password';
 jeżeli użytkownik o podanej nazwie z pasującym do użytkownika hasłe istnieje, to zostanie zwrócony token
 
 <br>
-2. Nowy feed:
+<b>Nowy feed:</b>
 
 POST: http://localhost:8000/scraper/currencyfeeds/
 
@@ -59,7 +59,7 @@ header powinien zawierać:
 oraz koniecznie 'name' i 'link', czyli nazwę waluty oraz link skąd pobrać dane o walucie
 
 <br>
-3. Informacja o walutach jakie są dostępne:
+<b>Informacja o walutach jakie są dostępne:</b>
 
 GET: http://localhost:8000/scraper/currencyfeeds/
 
@@ -68,7 +68,7 @@ header powinien zawierać:
 'Authorization' z tokenem w postaci 'Token vhhc9u2kyec8qurt6vmws7grf2p28zr55swpcve2';
 
 <br>
-4. Dane o wybranej walucie:
+<b>Dane o wybranej walucie:</b>
 
 GET: http://localhost:8000/scraper/filteredcurrencies/
 
@@ -79,7 +79,7 @@ header powinien zawierać:
 oraz w parametrach ?targetCurrency=PLN (lub inną wybraną, dostępną walutę)
 
 <br>
-5. Parsowanie feedów:
+<b>Parsowanie feedów:</b>
 
 Uruhomienie parsera poprzez wejście na adres: http://localhost:8000/scraper/
 
