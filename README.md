@@ -5,10 +5,15 @@ SETUP:
 Python 3.6.4
 
 Django              2.0.5
+
 django-filter       2.0.0
+
 djangorestframework 3.9.0
+
 xmltodict           0.11.0
+
 python-dateutil     2.7.2
+
 requests            2.18.4
 
 FUNKCJONALNOŚCI:
