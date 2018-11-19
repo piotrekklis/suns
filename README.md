@@ -18,6 +18,7 @@ FUNKCJONALNOŚCI:
   3. REST API z endpointami:
   
       a) http://localhost:8000/scraper/filteredcurrencies/ - do pobierania kursów walut (jeden endpoint z opcją filtrowania po 'targetCurrency')
+      
       b) http://localhost:8000/scraper/currencyfeeds/ - do pobierania listy feedów z aplikacji oraz do dodawania nowych feedów
       
   4. Autentyfikacja z użyciem tokena
