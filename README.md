@@ -16,7 +16,7 @@ python-dateutil     2.7.2
 
 requests            2.18.4
 
-
+<br>
 <b>FUNKCJONALNOŚCI:</b>
 
   1. Parsowanie feedów
